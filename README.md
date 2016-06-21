@@ -12,7 +12,7 @@ App demo of an animation from an array of images
 # Author
 Alistair Cooper
 
-[twitter](https://www.twitter.com/swiftcomposer.com)
+[twitter  @SwiftComposer](https://www.twitter.com/swiftcomposer.com)
 
 [SwiftCodeComposer.com](https://www.swiftcodecomposer.com)
 
