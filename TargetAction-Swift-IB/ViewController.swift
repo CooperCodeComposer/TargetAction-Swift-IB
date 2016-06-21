@@ -14,7 +14,7 @@ enum ImageLoadError: ErrorType {
 
 
 class ViewController: UIViewController, UITextFieldDelegate {
-    
+ 
     @IBOutlet weak var mainTitle: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
@@ -22,8 +22,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textField.delegate = self
-            
         setupImageView()
     }
 
@@ -32,8 +30,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func setupImageView()
-    {
+    func setupImageView() {
+        
         if let imageArray = ImageModel.imageArray {
             
             imageView.animationImages = imageArray
@@ -52,6 +50,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
 
+// MARK: IBActions
     
     @IBAction func enterButton(sender: UIButton, forEvent event: UIEvent) {
         mainTitle.text = textField.text?.uppercaseString
