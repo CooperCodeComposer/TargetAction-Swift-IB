@@ -9,6 +9,8 @@ App demo of an animation from an array of images
 + UITextField that changes a UILabel 
 + Layout in interface builder 
 
+![Alt text](/TargetActionSS.png?raw=true "")
+
 # Author
 Alistair Cooper
 
